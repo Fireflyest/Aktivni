@@ -1,0 +1,31 @@
+Version: '1.0.0-SNAPSHOT'
+
+Sql: false
+Url: 'jdbc:mysql://localhost:3306/web_study?serverTimezone=GMT%2B8'
+User: 'root'
+Password: '123456'
+
+#是否展示菜单中玩家头颅的皮肤(可能引起网络问题造成网络问题)
+DisplaySkin: true
+
+#默认的补签次数，每个月会送的数量
+DefaultChance: 2
+
+#任务进度条
+TaskProgress: true
+
+#活跃答题奖励积分
+QuizActivity: 1
+
+#普通签到奖励，随机取一，要多个奖励请使用kit
+#第一个奖励是运气不好给的
+Rewards:
+  - give %player% poisonous_potato 1
+  - give %player% diamond 1
+  - give %player% gold_ingot 3
+  - give %player% golden_apple 1
+  - eco give %player% 200
+#周末奖励
+Weekend:
+  - give %player% poisonous_potato 1
+  - eco give %player% 200

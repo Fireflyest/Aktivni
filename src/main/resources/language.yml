@@ -1,0 +1,49 @@
+Version: '1.0.0-SNAPSHOT'
+Title: '&6✦&f'
+PluginName: '&f&l[&0&lAktivni&f&l]&r '
+
+CreditPage: '&9积分兑换'
+SignPage: '&9签到奖励'
+PlaytimePage: '&9在线奖励'
+TaskPage: '&9任务列表'
+
+Help:
+  - '帮助指令'
+PlayerCommand: '&c该指令只能由玩家使用!'
+Reloading: '&f配置文件重载中...'
+Reloaded: '&f配置文件重载完成!'
+
+#提示信息
+FaultSignIn: '&f很遗憾没办法签到'
+SignInFestival: '&f祝你&3%s&f快乐!'
+SignInRemind: '&f今天还没签到呢，快点签到领取奖品吧'
+SignInFuture: '&f这天还没到呢，你想穿越去签到吗'
+SignInSuccess: '&f成功签到，奖品已放入背包'
+SignInWeekend: '&f祝您周末愉快'
+UnluckToday: '&f今天的运气差极了'
+SignInAlready: '&f你已经签到过了'
+NotEnoughChance: '&f补签次数已经用完了呢'
+NotEnoughCredit: '&f你没有足够的活跃度'
+NotEnoughSignin: '&f你没有足够的签到次数，或已经领取过这个奖励了'
+NotEnoughPlaytime: '&f你没有足够的在线时间，或已经领取过这个奖励了'
+ExchangeSuccess: '&f成功领取奖励'
+
+AddChance: '&f成功为&b %player% &f添加 &3%amount% &f次补签机会'
+
+FinishTask: '&f你已完成&3 %task% &f快点领取奖励吧!'
+AddTask: '&f你接受了任务 &3 %task%'
+RewardTask: '&f恭喜你成功完成任务 &3%task%，&f并获得活跃积分 &3%amount%'
+
+ActivityRank: '&f今日活跃度排行'
+DayActivity: '&f玩家&3%player%&f该月在线 &3%days% &f天，共 &3%activity% &f活跃度'
+
+SelectOption: '&f玩家&3%player%&f选择了选项 &3%option%'
+RightOption: '&f你选择了正确的答案'
+FalseOption: '&f很遗憾你选错了'
+Selected: '&f你已经回答过这个问题了'
+WinPlayer: '&f玩家&3%player%&f抢答正确，获得活跃度 &3%activity%'
+
+DataEdit: '&f已经打开文件&3%s&f请修改保存后点击下面按钮加载'
+DataEmpty: '&f暂无数据'
+DataLoaded: '&f数据已成功更新'
+DataRemove: '&f数据&3%s&f成功删除，重启生效'
